@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:heal_go_flutter/navigation.dart';
 import 'package:heal_go_flutter/screens/home_screen.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const MyNavigation(),
     );
   }
 }
