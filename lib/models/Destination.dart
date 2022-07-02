@@ -32,7 +32,7 @@ List<Destination> destination = [
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Pantai_Pangandaran.jpg/1200px-Pantai_Pangandaran.jpg'
   ),
   Destination(
-      name: 'Dunia Fantasi(Dufan)',
+      name: 'Dufan',
       code: '003',
       category: 'Taman',
       location: 'Jakarta',
@@ -40,7 +40,7 @@ List<Destination> destination = [
       image: 'https://www.wowkeren.com/display/images/photo/2019/09/02/00271060_1.jpg'
   ),
   Destination(
-      name: 'Taman Mini Indonesia Indah (TMII)',
+      name: 'TMII',
       code: '004',
       category: 'Taman',
       location: 'Jakarta',
