@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:heal_go_flutter/navigation.dart';
-import 'package:heal_go_flutter/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());

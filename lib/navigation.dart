@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:heal_go_flutter/screens/discover_screen.dart';
 import 'package:heal_go_flutter/screens/home_screen.dart';
+import 'package:heal_go_flutter/screens/profile_screen.dart';
 
 import 'components/BottomNavigation.dart';
 
@@ -14,22 +14,22 @@ class MyNavigation extends StatefulWidget {
 
 class _MyNavigationState extends State<MyNavigation> {
 
-  Widget _screen = HomeScreen();
+  Widget _screen = const HomeScreen();
 
   void changeScreen(int index) {
     setState((){
 
       switch (index) {
         case 0:
-          _screen = HomeScreen();
+          _screen = const HomeScreen();
           break;
 
         case 1:
-          _screen = DiscoverScreen();
+          _screen = const DiscoverScreen();
           break;
 
-        default:
-          _screen = HomeScreen();
+        case 2:
+          _screen = const ProfileScreen();
           break;
       }
     });

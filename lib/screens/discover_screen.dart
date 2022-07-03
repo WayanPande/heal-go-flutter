@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:heal_go_flutter/components/destination_card.dart';
 import 'package:heal_go_flutter/components/destination_card_discover.dart';
 import 'package:heal_go_flutter/models/Destination.dart';
 
 class DiscoverScreen extends StatelessWidget {
+  const DiscoverScreen({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

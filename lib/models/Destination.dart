@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 
 class Destination {
 
@@ -21,7 +20,7 @@ List<Destination> destination = [
      category: 'Pasar',
      location: 'Yogyakarta',
      description: 'Jalan Malioboro adalah nama salah satu kawasan jalan dari tiga jalan di Kota Yogyakarta yang membentang dari Tugu Yogyakarta hingga ke perempatan Kantor Pos Yogyakarta. Secara keseluruhan terdiri atas Jalan Margo Utomo, Jalan Malioboro, dan Jalan Margo Mulyo. Jalan ini merupakan poros Garis Imajiner Kraton Yogyakarta',
-     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Malioboro_Street%2C_Yogyakarta.JPG/1200px-Malioboro_Street%2C_Yogyakarta.JPG'
+     image: 'https://img.inews.co.id/media/822/files/inews_new/2021/06/21/pedagang_malioboro.jpg'
   ),
   Destination(
       name: 'Pantai Pangandaran',
